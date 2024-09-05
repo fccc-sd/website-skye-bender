@@ -1,8 +1,8 @@
 
 
 h2 {
-    color: rgb(0, 0, 0);
-    font: normal 1.8em Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font: bold 1.8em Arial, Helvetica, sans-serif;
 }
 
 h6 {
@@ -10,8 +10,14 @@ h6 {
 }
 
 body {
-    color: rgb(0, 0, 0);    
+    color: rgb(255, 255, 255);    
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 
     background-image: url('images/page_bg.jpg');
     background-repeat: no-repeat;
@@ -62,9 +68,79 @@ p {
     max-width: 900px;
 }
 
-a {
-    color: rgb(11, 56, 255);
-    font-style: italic;
+a:link {
+
+    color: rgb(147, 163, 255);
+    font-style: normal;
+
+}
+
+a:visited {
+
+    color: rgb(147, 163, 255);
+    font-style: normal;
+
+}
+
+a:hover {
+    
+    color: rgb(255, 255, 255);
+    font-style: normal;
+
+}
+
+nav {
+
+    display: block;
+    background: rgb(0, 9, 133); 
+    padding: 1px;
+    border-radius: 10px;
+    max-width: 186px;
+    margin: auto;
+
+}
+
+nav ul {
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+nav li {
+
+    background: rgb(147, 163, 255);
+    padding: 6px;
+    border-radius: 8px;
+    display: inline;
+    text-align: center;
+    font-size: 1.2em;
+
+
+}
+
+nav a:link {
+
+    color: rgb(194, 203, 255);;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+nav a:visited {
+
+    color: rgb(194, 203, 255);
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: none;
+
 }
 
 #myFace {
@@ -98,6 +174,7 @@ a {
 }
 
 .heading1 {
+    
     display: block;
     margin: auto;
     text-align: center;
