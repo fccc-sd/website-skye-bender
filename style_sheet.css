@@ -94,7 +94,7 @@ nav {
     background: rgb(0, 9, 133); 
     padding: 1px;
     border-radius: 10px;
-    max-width: 315px;
+    max-width: 380px;
     margin: auto;
 
 }
@@ -120,7 +120,7 @@ nav li {
 
 nav a:link {
 
-    color: rgb(194, 203, 255);;
+    color: rgb(194, 203, 255);
     font-style: normal;
     text-decoration: none;
 
@@ -195,9 +195,37 @@ iframe {
     margin: auto;
 }
 
+fieldset {
+
+    background-color: rgb(194, 203, 255);
+    border-width: 10px;
+    border-color: rgb(0, 9, 133);
+    border-style: solid;
+    padding: 20px;
+
+}
+
+textarea {
+
+    resize: none;
+
+}
+
 #myFace {
     float: right;
     padding: 15px;
+}
+
+#state {
+    max-width: 50px;
+}
+
+#zip {
+    max-width: 100px;
+}
+
+#phone {
+    max-width: 100px;
 }
 
 .centered-text {
